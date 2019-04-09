@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+android:layout_weight="1"
+        android:gravity="center"
+    android:background="@drawable/textview"
+        android:textSize="20dp"
+        android:id="@+id/cheng1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="1路"/>
+    <TextView
+        android:layout_weight="1"
+android:layout_marginLeft="100dp"
+        android:textSize="20dp"
+        android:id="@+id/wang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_weight="1"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"/>
+    <ImageView
+        android:layout_weight="1"
+      android:padding="15dp"
+        android:layout_marginLeft="200dp"
+        android:id="@+id/cheng2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher_round"/>
+    <Button
+        android:id="@+id/haha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下载"/>
+
+</LinearLayout>
